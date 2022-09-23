@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Precios y porcentajes</title>
+</head>
+<body>
+    <section class="porcentages">
+        <h1>Porcentajes</h1>
+        <h2>Ingresa el cantidad :</h2>
+        <input type="number" name="amount" class="input"  id="amount">
+        <h2>Ingresa el porcentajes : </h2>
+        <input type="number" id="porcentage" class="input" >
+        <button class="btn-porcentage">Calcular cantidad total</button>
+        <div class="container-total-quantity">
+            <p class="total-quantity"></p>
+        </div>
+        <button class="show-coupons">Mostrar cupones </button>
+    </section>
+    <section class="coupons" id="coupons">
+        <div class="target-coupon" >
+            <h4>Cupon del 5%</h4>
+            <button class="btn-apply-5" id="five">Aplicar</button>
+        </div>
+        <div class="target-coupon" >
+            <h4>Cupon del 15%</h4>
+            <button class="btn-apply-15" id="fifteen">Aplicar</button>
+        </div>
+        <div class="target-coupon" >
+            <h4>Cupon del 30%</h4>
+            <button class="btn-apply-30" id="thirty" >Aplicar</button>
+        </div> 
+        <div class="target-coupon" >
+            <h4>Cupon del 60%</h4>
+            <button class="btn-apply-60" id="sixty">Aplicar</button>
+        </div>
+    
+    </section> 
+
+    <script src="./index.js"  type="module"></script>
+</body>
+</html>

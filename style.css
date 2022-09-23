@@ -1,0 +1,113 @@
+:root{
+    --botones:#7E708C ;
+    --fondo:#EDE6F1;
+    --cupones:#DFA352;
+    --texto:#DEF5F3;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    background: var(--fondo);
+}
+
+.porcentages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.input{
+    display: flex;
+    text-align: end;
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.total-quantity, .show-coupons{
+    font-size: 30px;
+}
+.container-total-quantity {
+    display: none;
+    padding: 2px;
+    background: linear-gradient(120deg, #256ac0, #35976a);
+    border-radius: 10px;
+}
+
+.total-quantity{
+    display: none;
+    background: var(--fondo);
+    border-radius: 8px;
+    padding:  15px 30px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+    margin: 0px;
+}
+
+.btn-porcentage{
+    margin: 20px 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: var(--botones);
+    border: 1px solid white;
+    color: var(--texto);
+    cursor: pointer;
+}
+
+.show-coupons{
+    background-color: var(--botones);
+    color: var(--texto);
+    border: 1px solid var(--botones);
+    margin: 20px;
+    font-size: 19px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.coupons{
+    display: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+.target-coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 120px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color:var(--cupones);
+}
+h4{
+    font-size: 20px;
+}
+
+.target-coupon button{
+    width: 160px;
+    height: inherit;
+    border-radius: 10px;
+    background-color: var(--botones);
+    border: 1px solid var(--botones);
+    color: var(--texto);
+    font-size: 16px;
+    cursor: pointer;
+    
+}
